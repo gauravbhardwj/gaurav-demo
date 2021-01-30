@@ -15,6 +15,7 @@
     <!----header start-->
     <?php
     include '../components/header.php';
+    
     ?>
 
     <!----header end -->
