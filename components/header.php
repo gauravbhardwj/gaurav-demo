@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', () => {
 </script>
 <header>
     <nav>
-      <div class="logo"><a href="index.php">Romania<span>.</span></a></div>
+      <div class="logo"><a href="index.php">RISE INN<span>.</span></a></div>
       <ul class="main-nav">
         <li><a href="index.php">About</a></li>
         <li><a href="rooms.php">Rooms</a></li>

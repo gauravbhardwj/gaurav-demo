@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/css/index.css">
-  <title>Romania</title>
+  <title><strong><italic>Rise INN</italic></strong></title>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
   <section id="hero">
     <div class="background-overlay">
       <div class="hero-content">
-        <p>Welcome to Hotel Romania</p>
+        <p>Welcome to Hotel Rise INN</p>
         <h1>Experience home away from home</h1>
       </div>
     </div>
