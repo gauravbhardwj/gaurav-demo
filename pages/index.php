@@ -3,9 +3,12 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../assets/css/owl.theme.default.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/css/index.css">
-  <title><strong><italic>Rise INN</italic></strong></title>
+  <title>RISE INN</title>
 </head>
 
 <body>
@@ -17,6 +20,7 @@
   ?>
 
   <!----header end -->
+
   <section id="hero">
     <div class="background-overlay">
       <div class="hero-content">
@@ -41,6 +45,8 @@
           <label for="check-out-date">Check-Out</label>
         </div>
       </div>
+
+
       <div class="input-box">
         <div class="box-content">
           <select name="guests" id="guests">
@@ -56,10 +62,12 @@
       </div>
     </div>
   </section>
+
   <section id="about-us">
     <div class="watermark-tag">Explore.</div>
     <div class="inner-content">
       <h4>About Us</h4>
+
       <h2>Your comfort begins here</h2>
       <div class="about-us-content">
         <img src="../assets/images/footer img.jpg" alt="about-us" />
@@ -119,6 +127,26 @@
       <a class="suites-link" href="#">See All</a>
     </div>
   </section>
+
+
+  <div class="owl-carousel owl-theme">
+    <img class="owl-lazy" data-src="https://placehold.it/350x450&text=1" data-src-retina="https://placehold.it/350x250&text=1-retina" alt="">
+    <img class="owl-lazy" data-src="https://placehold.it/350x650&text=2" data-src-retina="https://placehold.it/350x250&text=2-retina" alt="">
+    <picture>
+      <source class="owl-lazy" media="(min-width: 650px)" data-srcset="https://placehold.it/350x250&text=3-large">
+      <source class="owl-lazy" media="(min-width: 350px)" data-srcset="https://placehold.it/350x250&text=3-medium">
+      <img class="owl-lazy" data-src="https://placehold.it/350x250&text=3-fallback" alt="">
+    </picture>
+    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=4" alt="">
+    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=5" alt="">
+    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=6" alt="">
+    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=7" alt="">
+    <img class="owl-lazy" data-src="https://placehold.it/350x250&text=8" alt="">
+    <img class="owl-lazy" data-src="https://placehold.it/350x400&text=9" alt="">
+    <img class="owl-lazy" data-src="https://placehold.it/350x400&text=10" alt="">
+    <img class="owl-lazy" data-src="https://placehold.it/350x450&text=11" alt="">
+  </div>
+
   <section id="facilities">
     <div class="inner-content">
       <h4>Why us?</h4>
@@ -202,6 +230,10 @@
       </div>
     </div>
   </section>
+
+
+
+
   <section id="sub-footer">
     <div class="background-overlay">
       <div class="inner-content">
@@ -211,21 +243,19 @@
       </div>
     </div>
   </section>
-  <footer>
-    <div class="inner-content">
-      <hr>
-      <div class="major-footer">
-        <p class="footer-logo">Romania</p>
-        <p class="copyright">&copy; Romania. 2020. All Rights Reserved</p>
-        <ul class="footer-icons">
-          <li><a href="#"><img src="../assets//images/facebook.png" width="20px" alt="facebook icon" /></a></li>
-          <li><a href="#"><img src="../assets/images/twitter.png" width="20px" alt="twitter icon" /></a></li>
-          <li><a href="#"><img src="../assets//images/instagram.png" width="20px" alt="instagram icon" /></a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+
+
+  <!--footer start-->
+
+  <?php
+  include '../components/footer.php';
+  ?>
+
+  <!----footer end -->
 </body>
+
+<script src="../assets/js/jquery.js"></script>
+<script src="../assets/js/owl.carousel.min.js"></script>
 <script src="../assets/js/script.js"></script>
 
 </html>

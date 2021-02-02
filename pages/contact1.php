@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
     <link rel="stylesheet" href="../assets/css/index.css">
     <link rel="stylesheet" href="../assets/css/contact.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+   
     <title>Romania</title>
 </head>
 
@@ -95,21 +97,13 @@
             </div>
         </div>
     </section>
+    <?php
+  include '../components/footer.php';
+  ?>
 
-    <footer>
-        <div class="inner-content">
-            <hr />
-            <div class="major-footer">
-                <p class="footer-logo">Romania</p>
-                <p class="copyright">&copy; Romania. 2020. All Rights Reserved</p>
-                <ul class="footer-icons">
-                    <li><a href="#"><img src="../assets//images/facebook.png" width="20px" alt="facebook icon" /></a></li>
-                    <li><a href="#"><img src="../assets/images/twitter.png" width="20px" alt="twitter icon" /></a></li>
-                    <li><a href="#"><img src="../assets//images/instagram.png" width="20px" alt="instagram icon" /></a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+    <!--<footer>FOOTER START
+        
+    FOOTER END </footer>-->
     <script src="assets/js/script.js"></script>
 </body>
 

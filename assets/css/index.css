@@ -106,7 +106,7 @@ nav .logo a span {
 }
 
 #hero-rooms, #hero-facilities, #hero-contact {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)),url("../images/hero\ image.jpg");  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63),rgba(0, 0, 0, 0.63)),url("../images/hero_image.jpg");  
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -123,10 +123,9 @@ nav .logo a span {
     font-weight: bold;
     font-size: 36px;
     line-height: 54px;
-    color: #380505;
+    color: #FCFCFC;
     padding-top: 170px;
 }
-
 #hero-contact .inner-content p {
     color: #fff;
     font-size: 24px;
@@ -145,7 +144,7 @@ nav .logo a span {
 }
 
 #inner-tour .input-box {
-    background-color: #33373D;
+    background-color: #02183a;
     display: table;
     width: 100%;
     margin-right: 15px;
@@ -155,11 +154,11 @@ nav .logo a span {
     z-index: 200;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 4px 5px rgba(153, 17, 17, 0.5);
 }
 
 #inner-tour .input-box:last-child {
-    background: linear-gradient(180deg, #F8885A 0%, #EB4501 100%);
+    background: linear-gradient(180deg, #b9532a 0%, #948782 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,7 +211,7 @@ nav .logo a span {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600;
-    color: rgb(248, 136, 90);
+    color: rgba(248, 236, 90, 0.8);
     position: absolute;
     top: 70%;
 }
@@ -232,7 +231,7 @@ nav .logo a span {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600;
-    color: #F8885A;
+    color: #f7da4a;
     width: 100%;
     /* padding-left: 10px; */
     background: url(../images/dropdown.svg); 
@@ -271,7 +270,7 @@ nav .logo a span {
 }
 
 #about-us .inner-content h4:after, #rooms .inner-content h4:after, #facilities .inner-content h4:after, #testimonials .inner-content h4:after {
-    content: ' ';
+    /*content: ' ';*/
     width: 55px;
     height: 3px;
     display: block;
@@ -307,7 +306,7 @@ nav .logo a span {
 }
 
 #about-us .inner-content .about-us-content .sub-content a, #rooms .inner-content a, #facilities .inner-content a {
-    font-size: 20px;
+    font-size: 40px;
     color: #EB4501;
     text-decoration: none;
     display: inline-block;
@@ -321,7 +320,7 @@ nav .logo a span {
 }
 
 #about-us .inner-content .about-us-content .sub-content a:before, #rooms .inner-content a:before, #facilities .inner-content a:before {
-    content: ' ';
+    /*content: ' ';*/
     height: 3.5px;
     width: 120px;
     margin-bottom: 6px;
@@ -549,7 +548,7 @@ nav .logo a span {
 }
 
 #facilities .inner-content .facilities-group .facility p:after {
-    content: ' ';
+    /*content: ' ';*/
     width: 126px;
     height: 3px;
     display: block;
@@ -672,7 +671,7 @@ nav .logo a span {
     border: none;
 }
 
-footer .inner-content {
+/*footer .inner-content {
     padding: 0 100px;
 }
 
@@ -707,7 +706,7 @@ footer .inner-content .major-footer ul {
 
 footer .inner-content .major-footer ul li {
     margin-right: 30px;
-}
+}*/
 
 .burger-menu {
     display: none;
@@ -1243,29 +1242,113 @@ footer .inner-content .major-footer ul li {
         padding: 11px 12px;
     }
 
-    footer .inner-content {
-        padding: 0 20px;
-    }
+}
 
-    footer .inner-content hr, footer .inner-content .major-footer .footer-logo  {
-        display: none;
-    }
+ 
+.footer_content 
+{
+	padding-top: 80px;
+	padding-bottom: 83px;
+    border-bottom: solid 2px #4d4e4e;
+    border-color:#b0e0e6;
+    background-color: lemonchiffon;
+    padding:42px 80px;
+}
+.footer_content .logo_container
+{
+	padding-left: 0px;
+}
+.footer_content .logo span
+{
+	color: #c21b1b;
+}
+.footer_about_text
+{
+	margin-top: 24px;
+	margin-bottom: 0px;
+	padding-right: 20px;
+}
+.footer_column_title
+{
+	font-size: 30px;
+	font-weight: 500;
+	color: #FFFFFF;
+	padding-top: 15px;
+}
+.footer_column_content
+{
+	margin-top: 32px;
+}
+.footer_list_item
+{
+	margin-bottom: 11px;
+}
+.footer_list_item a
+{
+	font-size: 14px;
+	color: #a5a5a5;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.footer_list_item a:hover
+{
+	color: #ffb606;
+}
+.footer_contact_item
+{
+	font-size: 14px;
+	font-weight: 400;
+	color: #a5a5a5;
+	margin-bottom: 22px;
+}
+.footer_contact_item:last-child
+{
+	margin-bottom: 0px;
+}
+.footer_contact_icon
+{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.footer_contact_icon img
+{
+	width: 100%;
+}
 
-    footer .inner-content .major-footer .copyright {
-        font-size: 14px;
-        margin-bottom: 20px;
-    }
+/*********************************
+15.3 Footer Copyright
+*********************************/
 
-    footer .inner-content .major-footer ul {
-        padding-inline-start: 0;
-        margin-bottom: 0;
-    }
-
-    footer .inner-content .major-footer ul li:last-child {
-        margin-right: 0;
-    }
-
-    footer .inner-content .major-footer {
-        flex-direction: column-reverse;
-    }
+.footer_bar
+{
+	padding-top: 19px;
+	padding-bottom: 19px;
+}
+.footer_social .menu_social_item a i
+{
+	color: #FFFFFF;
+}
+.footer_social .menu_social_item a i:hover
+{
+	color: #ffb606;
+}
+.footer_social .menu_social_item:last-child
+{
+	margin-right: 0px;
+}
+.logo span
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 900;
+	color: #3a3a3a;
+	vertical-align: middle;
+	text-transform: uppercase;
+	margin-left: 3px;
 }

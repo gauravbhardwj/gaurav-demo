@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
     <title>Facilities</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="../assets/css/facilities.css">
     <link rel="stylesheet" href="../assets/css/index.css">
 </head>
@@ -83,7 +84,7 @@
       </div>
     </div>
   </section>
-  <footer>
+  <!--<footer>
     <div class="inner-content">
       <hr>
       <div class="major-footer">
@@ -96,8 +97,10 @@
         </ul>
       </div>
     </div>
-  </footer>
-
+  </footer>-->
+  <?php
+  include '../components/footer.php';
+  ?>
 
 </main>
 

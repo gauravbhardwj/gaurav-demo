@@ -1,3 +1,12 @@
+
+$('.owl-carousel').owlCarousel({
+    items:5,
+    lazyLoad:true,
+    loop:true,
+    margin:10
+});
+
+
 const createCarousel = (carouselGroup, activeClass) => {
     const sliderIndicators = document.querySelectorAll(carouselGroup);
     sliderIndicators.forEach( (indicator) => {
@@ -76,3 +85,4 @@ checkInDateInputValue.onchange = function() {
 checkOutDateInputValue.onchange = function() {
     formattedCheckOutLabel.innerHTML = formatDate(checkOutDateInputValue);
 }
+

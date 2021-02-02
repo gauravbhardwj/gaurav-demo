@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Romania</title>
     <link rel="stylesheet" href="../assets/css/rooms.css" >
     <link rel="stylesheet" href="../assets/css/index.css">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+	<link href="https://n.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/4b44ac96c3.js"></script>
 </head>
 <body>
@@ -57,20 +59,12 @@
       </div>
     </div>
   </section>
-  <footer>
-    <div class="inner-content">
-      <hr>
-      <div class="major-footer">
-        <p class="footer-logo">Romania</p>
-        <p class="copyright">&copy; Romania. 2020. All Rights Reserved</p>
-        <ul class="footer-icons">
-          <li><a href="#"><img src="../assets//images/facebook.png" width="20px" alt="facebook icon"/></a></li>
-          <li><a href="#"><img src="../assets/images/twitter.png" width="20px" alt="twitter icon"/></a></li>
-          <li><a href="#"><img src="../assets//images/instagram.png" width="20px" alt="instagram icon"/></a></li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+  <!--<footer> FOOTER START
+    FOOTER END
+  </footer>-->
+  <?php
+  include '../components/footer.php';
+  ?>
   <script src="../assets/js/script.js"></script>
 </body>
 </html>
